@@ -3,8 +3,7 @@ package com.graphql.anta.countries.model;
 import org.springframework.data.annotation.Id;
 
 public record Country(
-        @Id
-        Integer id,
+        @Id Integer id,
         String name,
         String emoji,
         String currency,
